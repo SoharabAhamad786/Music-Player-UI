@@ -1,33 +1,24 @@
-# 🎵 NeonWave Player
+# Music-Player-UI
 
-A Spotify-style music player UI with glassmorphism + dark neon aesthetics.
+Spotify and Gaana inspired React music player featuring live track discovery via free APIs, playable previews, lyrics snippets, modern responsive UI, queue, likes, search, shuffle, repeat, and sleep timer controls.
 
 ## Quick Start
 
 ```bash
-# 1. Install dependencies
 npm install
-
-# 2. Start the dev server
 npm start
 ```
 
-Opens at → http://localhost:3000
+Open http://localhost:3000
 
 ## Features
-- ▶️ Play / Pause with neon glow animation
-- ⏭ Skip forward / backward
-- 🔀 Shuffle + 🔁 Repeat toggle
-- 📊 Animated equalizer bars
-- 🎚️ Seekable progress bar with fake timer
-- 🔊 Volume slider
-- ♥ Like / Unlike tracks
-- 💿 Album card grid view
-- 📋 Track library list
-- 🎛️ Sidebar navigation + playlists
-- 🌌 Dark neon glassmorphism theme
+- Real playable song previews
+- Free API integration (iTunes + lyrics.ovh)
+- Search, likes, queue, shuffle, repeat
+- Playback speed and sleep timer
+- Responsive Spotify/Gaana-style interface
 
 ## Tech Stack
-- React 18 (hooks only, no external state libs)
-- Pure CSS (no Tailwind, no UI kits)
-- Google Fonts: Syne + DM Mono
+- React 18
+- react-scripts 5
+- Pure CSS
